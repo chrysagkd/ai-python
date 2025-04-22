@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression #1:γραμμική παλιν
 from sklearn.metrics import mean_squared_error #1:αξιολόγηση απόδοσης μοντέλου, μέσο τετραγωνικό σφάλμα
 import matplotlib.pyplot as plt #1:επεικόνηση δεδομένων
 
-api_key = '785576e42ec1d7dcb9c9cb0ea0677943' #2:το κλειδί εισόδου στα δεδομένα
+api_key = 'the key' #2:το κλειδί εισόδου στα δεδομένα
 city = 'Thessaloniki, GR'  #2:εισαγωγή επιθυμητής πολης προς μελετη 
 #3:κάνουμε το request για να λάβουμε την πρόβλεψη
 url = f'http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}' #3:δημιουργία url
